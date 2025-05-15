@@ -1,4 +1,4 @@
-@use "/src/sass/base/variables.scss" as *;
+@use './variables.scss' as *;
 
 @mixin title {
 	color: $dark;
@@ -27,7 +27,7 @@
 @mixin angle-decoration {
 	&::after,
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
